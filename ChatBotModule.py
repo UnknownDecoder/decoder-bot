@@ -65,4 +65,4 @@ class ChatBot:
     
     def clear_responses(self):
         self._responses = {}
-        self.responses.update(self._imp_responses)
+        self._responses.update(self._imp_responses)
