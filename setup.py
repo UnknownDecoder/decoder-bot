@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    name='decoderbot',
-    version='1.0.0',
+    name='DecoderBot',
+    version='1.0.1',
     py_modules=['ChatBotModule'],
     author='Unknown Decoder',
     description='A simple trainable chatbot using OOP in Python',
