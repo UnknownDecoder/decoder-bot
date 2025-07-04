@@ -1,9 +1,9 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(
     name='DecoderBot',
     version='1.0.1',
-    py_modules=['ChatBotModule'],
+    packages=find_packages(),
     author='Unknown Decoder',
     description='A simple trainable chatbot using OOP in Python',
     long_description=open('README.md').read(),
