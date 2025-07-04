@@ -2,6 +2,7 @@
 
 > A lightweight Python chatbot that responds to messages using exact or close matches with `difflib`.
 
+[![PyPI version](https://badge.fury.io/py/DecoderBot.svg)](https://pypi.org/project/DecoderBot/)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Made with ❤️ by Unknown Decoder](https://img.shields.io/badge/Made%20by-Unknown%20Decoder-ff69b4)
 
@@ -33,12 +34,12 @@ No extra libraries. No nonsense. Just logic.
 ### 2. Import and use it in your project:
 
 ```python
-from chatbot import ChatBot
+from DecoderBot import ChatBot
 
-bot = ChatBot("DecoderBot")
+bot = ChatBot("Your Bot Name")
 
 # Add a custom response
-bot.add_response("yo", "What's up?")
+bot.train_for("yo", "What's up?")
 
 # Get exact match response
 print(bot.get_response("yo"))  # Output: What's up?
@@ -48,3 +49,7 @@ try:
     print(bot.get_closest_response("helo"))
 except Exception as e:
     print(e)
+```
+---
+## OR
+### You can install it using the command `pip install DecoderBot`!
