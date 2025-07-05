@@ -3,8 +3,13 @@
 All notable changes to **DecoderBot** starting from version `1.1.0`.
 
 ---
+## [1.1.1] - 2025-07-05
 
-## [1.1.0] - 2025-07-03
+### 🛠️ Improved
+- Bug fixes
+
+---
+## [1.1.0] - 2025-07-05
 
 ### 🔥 Added
 - **List/Set/Tuple support** for response values.
