@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='DecoderBot',
-    version='1.0.2',
+    version='1.1.0',
     packages=find_packages(),
     author='Unknown Decoder',
     description='A simple trainable chatbot using OOP in Python',
