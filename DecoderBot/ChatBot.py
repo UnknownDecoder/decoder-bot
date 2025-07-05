@@ -1,4 +1,5 @@
 import difflib
+import random
 
 class ChatBot:
 
@@ -49,6 +50,12 @@ class ChatBot:
     def reset_training(self):
         self._responses = {}
         self._responses.update(self._imp_responses)
+
+    def get_random_response(self, message, m = "Sorry, I can't give the answer to that message right now"):
+        r = self.get_closest_response(message)
+        if isinstance(r, (list, tuple, set)):
+            return random.choice(r)
+        return r
 
     def reset_bot(self, name="My Chatbot", threshold=0.2):
         self.name = name
