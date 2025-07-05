@@ -2,7 +2,7 @@
 
 > A lightweight Python chatbot that responds to messages using exact or close matches with `difflib`.
 
-[![PyPI version](https://badge.fury.io/py/DecoderBot.svg)](https://pypi.org/project/DecoderBot/)
+[![PyPI version](https://img.shields.io/pypi/v/DecoderBot?color=brightgreen)](https://pypi.org/project/DecoderBot/)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Made with ❤️ by Unknown Decoder](https://img.shields.io/badge/Made%20by-Unknown%20Decoder-ff69b4)
 
